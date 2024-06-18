@@ -2,6 +2,7 @@ package leo.pattern.singleton;
 
 public enum EnumSingleton {
     INSTANCE;
+    private int index;
 
     private EnumSingleton() {
         System.out.println("Instance created");
